@@ -1,7 +1,10 @@
 body {
+  height: 100vh;
   display: flex;
   flex-direction: row;
   gap: 10px;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .box {
@@ -9,4 +12,9 @@ body {
   height: 200px;
   background-color: tomato;
   display: inline-block;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
