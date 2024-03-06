@@ -2,10 +2,8 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  flex-direction: column;
   gap: 10px;
-  justify-content: space-around;
-  align-items: center;
+  flex-flow: row no-wrap;
 }
 
 .box {
