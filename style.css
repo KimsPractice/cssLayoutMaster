@@ -2,8 +2,11 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  gap: 10px;
-  flex-flow: row no-wrap;
+  row-gap: 10px;
+  column-gap: 20px;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
 }
 
 .box {
