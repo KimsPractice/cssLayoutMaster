@@ -10,11 +10,19 @@ body {
 .box:nth-child(1) {
   background-color: blueviolet;
   flex-grow: 1;
+  flex-shrink: 3;
 }
 
 .box:nth-child(2) {
   background-color: aqua;
-  flex-grow: 5;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.box:nth-child(3) {
+  background-color: tomato;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .box {
