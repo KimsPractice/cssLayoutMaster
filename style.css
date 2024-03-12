@@ -2,26 +2,22 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  row-gap: 10px;
-  column-gap: 20px;
   flex-flow: row wrap;
-  align-items: center;
+  justify-content: center;
+  margin: 0;
 }
 
-.box:nth-child(3) {
+.box:nth-child(1) {
   background-color: blueviolet;
-  order: 2;
-  align-self: flex-start;
+  flex-grow: 1;
 }
 
-.box:nth-child(6) {
+.box:nth-child(2) {
   background-color: aqua;
-  order: -1;
-  align-self: flex-end;
+  flex-grow: 5;
 }
 
 .box {
-  width: 200px;
   height: 200px;
   background-color: tomato;
   display: inline-block;
